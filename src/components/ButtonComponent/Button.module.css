@@ -1,0 +1,27 @@
+.MuiButtonBase-root.MuiButton-root,
+.MuiButtonBase-root.MuiButton-root:hover {
+	width: 160px;
+	background-color: darkRed;
+	color: white;
+}
+.buttons {
+	display: flex;
+	gap: 10px;
+}
+
+.buttons .MuiButtonBase-root.MuiButton-root {
+	width: 335px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: none;
+}
+.buttons .cancel-button,
+.buttons .cancel-button:hover {
+	border: 2px solid gray;
+	background-color: white;
+	color: gray;
+}
+
+.buttons .Mui-disabled {
+	background-color: darkgray;
+}
