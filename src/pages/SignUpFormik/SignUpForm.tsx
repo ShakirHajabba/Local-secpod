@@ -5,7 +5,7 @@ import { Visibility, VisibilityOff } from "@mui/icons-material";
 import "./SignUpForm.css";
 import { validateField, validationSchema } from "./SignUpValidationSchema";
 import { TERMS_CONDITIONS } from "../../utils/cms";
-import ButtonComponent from "../../components/ButtonComponent/ButtonComponent";
+import ButtonComponent from "../../components/ButtonComponent/Button.component";
 import { useSelector, useDispatch } from "react-redux";
 import { setUserDetails, UserState } from "../../redux/features/formSlice";
 import { FormFieldsData } from "./data";
